@@ -7,9 +7,9 @@ const MarketStories = () => {
        <div className='p-4 text-red-700 text-xl'>
             MARKET STORIES
         </div>
-   <div className="grid grid-cols-2">
+      <div className="grid lg:grid-cols-2 ">
 
-        <div className="zoom m-3 relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-xl "
+        <div className="zoom m-6 md:m-3 relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-xl "
           data-te-ripple-init
           data-te-ripple-color="light">
           <Image
@@ -32,7 +32,7 @@ const MarketStories = () => {
           </a>
         </div>
 
-        <div className="zoom m-3 relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-xl "
+        <div className="zoom m-6 md:m-3 relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-xl "
           data-te-ripple-init
           data-te-ripple-color="light">
           <Image
@@ -55,7 +55,7 @@ const MarketStories = () => {
           </a>
         </div>
 
-        <div className="zoom m-3 relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-xl "
+        <div className="zoom m-6 md:m-3 relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-xl "
           data-te-ripple-init
           data-te-ripple-color="light">
           <Image
@@ -78,7 +78,7 @@ const MarketStories = () => {
           </a>
         </div>
 
-        <div className="zoom m-3 relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-xl "
+        <div className="zoom m-6 md:m-3 relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-xl "
           data-te-ripple-init
           data-te-ripple-color="light">
           <Image
@@ -101,7 +101,7 @@ const MarketStories = () => {
           </a>
         </div>
 
-        <div className="zoom m-3 relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-xl "
+        <div className="zoom m-6 md:m-3 relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-xl "
           data-te-ripple-init
           data-te-ripple-color="light">
           <Image
@@ -124,7 +124,7 @@ const MarketStories = () => {
           </a>
         </div>
 
-        <div className="zoom m-3 relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-xl "
+        <div className="zoom m-6 md:m-3 relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-xl "
           data-te-ripple-init
           data-te-ripple-color="light">
           <Image

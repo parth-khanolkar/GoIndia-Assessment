@@ -5,8 +5,8 @@ import { FiBell, FiChevronDown } from 'react-icons/fi';
 import { AiOutlineArrowRight } from 'react-icons/ai'
 import { Tulpen_One } from 'next/font/google';
 
-const Sidebar = () => {
-  const [isOpen, setIsOpen] = useState(true);
+const Sidebar = ({isOpen, setIsOpen}) => {
+  // const [isOpen, setIsOpen] = useState(true);
 
   const toggleSidebar = () => {
     setIsOpen(!isOpen);

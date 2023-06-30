@@ -7,7 +7,7 @@ import Image from 'next/image'
 
 const Navbar = () => {
   return (
-    <nav className="">
+    <nav>
       <div className="w-full mx-auto px-2 sm:px-4 lg:px-4">
         <div className="relative flex items-center justify-between h-16">
         
@@ -93,16 +93,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className="sm:hidden" id="mobile-menu">
-        <div className="px-2 pt-2 pb-3 space-y-1">
-          <Link href="/signup" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
-            Sign Up
-          </Link>
-          <Link href="/signin" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
-            Sign In
-          </Link>
-        </div>
-      </div>
+      
     </nav>
   );
 };
