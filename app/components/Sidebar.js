@@ -15,8 +15,8 @@ const Sidebar = () => {
   return (
     // <div className='grid grid-cols-4'>
     <div
-      className={`bg-blue-800 text-white h-screen   ${
-        isOpen ? 'translate-x-0 ease-out ' : '-translate-x-full ease-in hidden  '
+      className={`bg-blue-800 text-white h-screen  ${
+        isOpen ? 'translate-x-0 ease-out' : '-translate-x-full ease-in hidden  '
       } fixed top-0 left-0 transition-transform duration-300 transform lg:relative lg:translate-x-0`}
     >
       <div className="flex items-center justify-between p-4">
