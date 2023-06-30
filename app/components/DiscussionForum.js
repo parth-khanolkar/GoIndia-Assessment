@@ -111,8 +111,8 @@ const DiscussionForum = () => {
                     <div className="">
                         <div className="flex items-center justify-between">
                             <p className="text-lg font-semibold text-gray-900 mt-3">Richard Adams 
-                            <span className="inline-block text-sm ml-4 py-1 px-2.5 rounded-full bg-red-500 text-white">
-                                Sector 1
+                            <span className="inline-block text-sm ml-4 py-1 px-2.5 rounded-full bg-blue-700 text-white">
+                                Sector 2
                             </span>
                             </p>
                           

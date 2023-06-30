@@ -14,21 +14,27 @@ const TradingViewTicker = () => {
   return (
     <div style={{ backgroundColor: 'black' }}>
         <TradingView 
-        symbols={[
-        {
-          proName: 'NASDAQ:AAPL',
-          title: 'AAPL',
-        },
-        {
-          proName: 'NYSE:MSFT',
-          title: 'MSFT',
-        },
+          className="custom-widget"
+         symbols={[
             {
-              title: "NSE NIFTY",
+              proName: 'NASDAQ:AAPL',
+              title: 'AAPL',
+            },
+            {
+              proName: 'NYSE:MSFT',
+              title: 'MSFT',
+            },
+          
+            {
+              proName: 'NYSE:MSFT',
+              title: 'MSFT',
+            },
+            {
+              title: "NSE:NIFTY",
               proName: "NSE:NIFTY"
             },
             {
-              title: "NSE BANKNIFTY",
+              title: "NSE:BANKNIFTY",
               proName: "NSE:BANKNIFTY"
             },
     

@@ -8,17 +8,16 @@ import Image from 'next/image'
 const Navbar = () => {
   return (
     <nav className="">
-      <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+      <div className="w-full mx-auto px-2 sm:px-4 lg:px-4">
         <div className="relative flex items-center justify-between h-16">
         
-          <div className="flex items-center flex-shrink-0">
+          <div className="flex items-center pl-4 flex-shrink-0">
           <Link href="/">
               
               <Image
               width={900}
-
               height={500}
-                className="block h-8 w-auto pl-8 pr-12"
+                className="block h-16 w-auto"
                 src='/../public/assets/GoIndiaLogo.jpg'
                 alt="Logo"
               />
@@ -81,11 +80,14 @@ const Navbar = () => {
           </div>
           <div className="hidden sm:block sm:ml-6">
             <div className="flex space-x-4">
-              <Link href="/signup" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                Sign Up
+              <Link href="/signin" className="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                Contact Us
               </Link>
-              <Link href="/signin" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                Sign In
+              <Link href="/signup" className="text-gray-900 border border-gray-500 hover:bg-gray-700 hover:text-white px-5 py-1.5 rounded-md text-sm font-medium">
+                SIGN UP 
+              </Link>
+              <Link href="/signin" className="text-gray-900 border border-gray-500 hover:bg-gray-700 hover:text-white px-5 py-1.5 rounded-md text-sm font-medium">
+                SIGN IN
               </Link>
             </div>
           </div>
