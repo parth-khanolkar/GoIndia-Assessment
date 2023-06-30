@@ -15,7 +15,7 @@ const MarketStories = () => {
           <Image
             width={600}
             height={200}
-            src='/../public/assets/NSE.jpg'
+            src='/../public/images/NSE.jpg'
             className="w-full align-middle transition duration-300 ease-linear" />
           <a href="#!">
             <div
@@ -38,7 +38,7 @@ const MarketStories = () => {
           <Image
             width={600}
             height={200}
-            src='/../public/assets/USSE.jpg'
+            src='/../public/images/USSE.jpg'
             className="w-full align-middle transition duration-300 ease-linear" />
           <a href="#!">
             <div
@@ -61,7 +61,7 @@ const MarketStories = () => {
           <Image
             width={600}
             height={200}
-            src='/../public/assets/StockExchange.jpg'
+            src='/../public/images/StockExchange.jpg'
             className="w-full align-middle transition duration-300 ease-linear" />
           <a href="#!">
             <div
@@ -84,7 +84,7 @@ const MarketStories = () => {
           <Image
             width={600}
             height={200}
-            src='/../public/assets/BSE.jpg'
+            src='/../public/images/BSE.jpg'
             className="w-full align-middle transition duration-300 ease-linear" />
           <a href="#!">
             <div
@@ -107,7 +107,7 @@ const MarketStories = () => {
           <Image
             width={600}
             height={200}
-            src='/../public/assets/MSE.jpg'
+            src='/../public/images/MSE.jpg'
             className="w-full align-middle transition duration-300 ease-linear" />
           <a href="#!">
             <div
@@ -130,7 +130,7 @@ const MarketStories = () => {
           <Image
             width={600}
             height={200}
-            src='/../public/assets/StockExchange.jpg'
+            src='/../public/images/StockExchange.jpg'
             className="w-full align-middle transition duration-300 ease-linear" />
           <a href="#!">
             <div

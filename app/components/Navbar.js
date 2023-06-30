@@ -18,7 +18,7 @@ const Navbar = () => {
               width={900}
               height={500}
                 className="block h-16 w-auto"
-                src='/../public/assets/GoIndiaLogo.jpg'
+                src='/../public/images/GoIndiaLogo.jpg'
                 alt="Logo"
               />
             
