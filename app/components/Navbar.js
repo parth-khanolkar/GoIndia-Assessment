@@ -3,7 +3,7 @@
 import { FiSearch } from 'react-icons/fi';
 import Link from 'next/link';
 import Image from 'next/image'
-// import GoIndiaLogo from '../../public/assets/GoIndiaLogo.jpg'
+// import GoIndiaLogo from '../../public/images/GoIndiaLogo.jpg'
 
 const Navbar = () => {
   return (
