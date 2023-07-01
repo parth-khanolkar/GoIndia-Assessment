@@ -19,13 +19,10 @@ function Home() {
     border: 'none',
     borderBottom: '3px solid red',
     padding: '8px 16px',
-    // Add any other styles you want
   };
   const buttonStyle = {
     border: 'none',
-    // borderBottom: '3px solid green',
     padding: '8px 16px',
-    // Add any other styles you want
   };
 
   function handleClick() {
@@ -114,4 +111,3 @@ function Home() {
 }
 
 export default Home;
-// export default React.memo(Home);
