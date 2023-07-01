@@ -3,7 +3,7 @@
 import { FiSearch } from 'react-icons/fi';
 import Link from 'next/link';
 import Image from 'next/image'
-// import GoIndiaLogo from '../../public/images/GoIndiaLogo.jpg'
+// import GoIndiaLogo from '../images/GoIndiaLogo.jpg'
 
 const Navbar = () => {
   return (
@@ -18,7 +18,7 @@ const Navbar = () => {
               width={900}
               height={500}
                 className="block h-16 w-auto"
-                src='/../public/images/GoIndiaLogo.jpg'
+                src='/images/GoIndiaLogo.jpg'
                 alt="Logo"
               />
             
@@ -78,7 +78,7 @@ const Navbar = () => {
               </svg>
             </button> */}
             <Image width={36} height={36} className="rounded-full object-cover mr-4 shadow" 
-                    src='/../public/images/avatar1.jpg'
+                    src='/images/avatar1.jpg'
                      alt="avatar" />
           </div>
           <div className="hidden sm:block sm:ml-6">

@@ -60,13 +60,13 @@ const DiscussionForum = () => {
            
                 <Image 
                     className="w-full"
-                    src='/../public/images/InfibeamAvenues.jpg'
+                    src='/images/InfibeamAvenues.jpg'
                     width={600}
                     height={200}
                     alt="Picture of the author"/>
                 <div className="flex items-start px-4 py-6 bg-white">
                     <Image width={60} height={60} className="rounded-full object-cover mr-4 shadow" 
-                    src='/../public/images/avatar1.jpg'
+                    src='/images/avatar1.jpg'
                      alt="avatar1" />
 
                     <div className="">
@@ -109,7 +109,7 @@ const DiscussionForum = () => {
             <div className="flex bg-white mt-10 w-full rounded-lg overflow-hidden shadow-2xl ">
                 <div className="flex items-start px-4 py-6">
                     <Image width={60} height={60} className="rounded-full object-cover mr-4 shadow" 
-                    src='/../public/images/avatar2.jpg'
+                    src='/images/avatar2.jpg'
                      alt="avatar2" />
 
                     <div className="">
@@ -150,7 +150,7 @@ const DiscussionForum = () => {
             <div className="flex bg-white mt-10 w-full rounded-lg overflow-hidden shadow-2xl ">
                 <div className="flex items-start px-4 py-6">
                     <Image width={60} height={60} className="rounded-full object-cover mr-4 shadow" 
-                    src='/../public/images/avatar3.jpg'
+                    src='/images/avatar3.jpg'
                      alt="avatar2" />
 
                     <div className="">
@@ -191,7 +191,7 @@ const DiscussionForum = () => {
             <div className="flex bg-white mt-10 w-full rounded-lg overflow-hidden shadow-2xl ">
                 <div className="flex items-start px-4 py-6">
                     <Image width={60} height={60} className="rounded-full object-cover mr-4 shadow" 
-                    src='/../public/images/avatar4.jpg'
+                    src='/images/avatar4.jpg'
                      alt="avatar2" />
 
                     <div className="">
