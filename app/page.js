@@ -40,6 +40,24 @@ function Home() {
     <TradingViewTicker />
     <CompanyWidget />
     <div className="w-full md:hidden">
+    <div className={`${isOpen ? 'md:col-span-2' : 'hidden'}`}>
+        <Sidebar setIsOpen={setIsOpen} isOpen={isOpen}/>       
+      </div>
+    <div className="fixed left-0 top-1/2 transform -translate-y-1/2">
+          {
+            isOpen ? (
+              <button className="w-8 text-2xl bg-blue-600 text-white h-12" onClick={handleClick}>
+                <MdArrowBackIosNew />
+              </button>
+            ) : 
+            (
+              <button className="w-8 text-2xl bg-blue-600 text-white h-12" onClick={handleClick}>
+                <MdArrowForwardIos />
+              </button>
+            )
+          }
+          
+        </div>
       <div className="items-center justify-center mb-2 flex flex-row ">
         <button
           style={activeTab === 1 ? buttonStyleActive :  buttonStyle }
@@ -72,7 +90,7 @@ function Home() {
         <div className="fixed left-0 top-1/2 transform -translate-y-1/2">
           {
             isOpen ? (
-              <button className="w-8 text-2xl bg-blue-600 text-white h-12 hidden" onClick={handleClick}>
+              <button className="w-8 text-2xl bg-blue-600 text-white h-12" onClick={handleClick}>
                 <MdArrowBackIosNew />
               </button>
             ) : 

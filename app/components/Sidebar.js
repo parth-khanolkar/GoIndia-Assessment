@@ -15,9 +15,11 @@ const Sidebar = ({isOpen, setIsOpen}) => {
   return (
     // <div className='grid grid-cols-4'>
     <div
-      className={`bg-blue-800 text-white h-screen  ${
+      className={`bg-blue-800 text-white h-screen fixed 
+      ${
         isOpen ? 'translate-x-0 ease-out' : '-translate-x-full ease-in hidden  '
-      } fixed top-0 left-0 transition-transform duration-300 transform lg:relative lg:translate-x-0`}
+      } 
+      fixed  left-0 transition-transform duration-300 transform lg:fixed lg:translate-x-0`}
     >
       <div className="flex items-center justify-between p-4">
         <div className="flex items-center">
@@ -56,12 +58,7 @@ const Sidebar = ({isOpen, setIsOpen}) => {
           isOpen ? 'block' : 'hidden'
         } lg:hidden`}
       >
-        <button
-          onClick={toggleSidebar}
-          className="flex items-center justify-center h-12 w-12 rounded-full focus:outline-none bg-blue-600"
-        >
-          {AiOutlineArrowRight}
-        </button>
+       
       </div>
     </div>
     // </div>

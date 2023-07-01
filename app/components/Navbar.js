@@ -8,7 +8,7 @@ import Image from 'next/image'
 const Navbar = () => {
   return (
     <nav>
-      <div className="w-full mx-auto px-2 sm:px-4 lg:px-4">
+      <div className="w-full bg-white  mx-auto px-2 sm:px-4 lg:px-4 ">
         <div className="relative flex items-center justify-between h-16">
         
           <div className="flex items-center pl-4 flex-shrink-0">
@@ -39,7 +39,7 @@ const Navbar = () => {
             </div>
           </div>
           <div className="flex items-center sm:hidden">
-            <button
+            {/* <button
               type="button"
               className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
               aria-controls="mobile-menu"
@@ -76,7 +76,10 @@ const Navbar = () => {
                   d="M6 18L18 6M6 6l12 12"
                 />
               </svg>
-            </button>
+            </button> */}
+            <Image width={36} height={36} className="rounded-full object-cover mr-4 shadow" 
+                    src='/../public/images/avatar1.jpg'
+                     alt="avatar" />
           </div>
           <div className="hidden sm:block sm:ml-6">
             <div className="flex space-x-4">
